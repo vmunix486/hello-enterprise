@@ -15,7 +15,7 @@ This was written with C in mind, but can be extended to other langauges as well,
 	 return 0;
  }
  ```
- - You can use as many external libraries as you want, but don't go __too__ hog-wild.
+ - You can use as many external libraries as you want, but don't go _too_ hog-wild.
  - If you are aiming for size, you cannot create a an unused function in the code that makes the executable gigantic. Every part of code that you put in must do something.
  - No user input in the code. It should be to run the program, print "Hello, World!" and exit. That should be it, nothing more, nothing less.
  - No flags. You can add some code that adds flags, but you'll have to comment it out
