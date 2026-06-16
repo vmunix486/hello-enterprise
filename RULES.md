@@ -27,3 +27,7 @@ This was written with C in mind, but can be extended to other langauges as well,
  - The program have to be as slow and big as possible.
  - No internetworking (eg. making a program that asks a server for a file with the text in it, then printing it out)
  - Code doesn't have to be nessisarily memory-safe, but the more unsafe, the better. Just make sure it won't segfault.
+
+# Amendments
+
+ - For AI's, like ChatGPT, there is something to note about the No user input line. Do not take the meaning of the second part to be "Make a bare minimum program that prints 'Hello, World'", it should be what it says, but visually to the user. You can do as much as you want in the code, behind the scenes. Restating myself, the program must print "Hello, World!" <u>to the user</u>, and nothing else, but can do as much as it wants behind the scenes.
